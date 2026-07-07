@@ -1,0 +1,41 @@
+{
+  "identifier" : "BeadRow",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "beadrow_pro_group",
+      "localizations" : [],
+      "name" : "BeadRow Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "beadrow_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Bead Row Pro unlocks Low-stock alerts and project-based bead usage tracking",
+              "displayName" : "Bead Row Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.beadinventory.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "BeadRow Pro Monthly",
+          "subscriptionGroupID" : "beadrow_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
